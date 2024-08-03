@@ -1,3 +1,4 @@
-/cache
 /volumes/config/*
 !/volumes/config/.keep
+/docker-compose.local.yml
+/.env
