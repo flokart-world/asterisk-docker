@@ -1,0 +1,4 @@
+services:
+  asterisk:
+    ports:
+      - 5061

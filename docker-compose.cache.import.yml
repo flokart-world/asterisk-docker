@@ -1,0 +1,5 @@
+services:
+  asterisk:
+    build:
+      cache_from:
+        - type=local,src=./cache

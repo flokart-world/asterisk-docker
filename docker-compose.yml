@@ -1,0 +1,9 @@
+services:
+  asterisk:
+    build:
+      context: core
+      args:
+        ASTERISK_VERSION: 20.9.1
+    volumes:
+      - ./volumes/config:/etc/asterisk
+      - /etc/localtime:/etc/localtime:ro

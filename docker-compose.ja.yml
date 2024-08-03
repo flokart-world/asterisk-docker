@@ -1,0 +1,5 @@
+services:
+  asterisk:
+    build:
+      args:
+        ASTERISK_OPTIONS: --enable CORE-SOUNDS-JA-GSM

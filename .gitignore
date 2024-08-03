@@ -1,0 +1,3 @@
+/cache
+/volumes/config/*
+!/volumes/config/.keep
