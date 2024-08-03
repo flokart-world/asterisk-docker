@@ -1,6 +1,4 @@
 FROM debian:bookworm-slim
-
-USER root
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update
 
 ARG ASTERISK_VERSION=20.9.1
